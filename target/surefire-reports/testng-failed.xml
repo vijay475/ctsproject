@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [TESTS.Test_Jpet]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="TESTS.Test_Jpet">
+        <methods>
+          <include name="BeforeMethod"/>
+          <include name="aftermethod"/>
+          <include name="test3"/>
+          <include name="BeforeClass"/>
+          <include name="f" invocation-numbers="0"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- TESTS.Test_Jpet -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [TESTS.Test_Jpet] -->
